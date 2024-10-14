@@ -30,13 +30,11 @@ body {
 .container__4 {
   display: flex;
   justify-content: end;
-  text-align: center;
 }
 
 .container__5 {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .right {
@@ -82,12 +80,19 @@ body {
   background-color: rgb(226, 220, 220);
   margin: 5%;
   border: 1px solid black;
+  align-items: center;
 }
 
 .item {
-  width: 200px;
-  height: 120px;
+  width: 180px;
+  height: 110px;
   background-color: grey;
   margin: 1%;
   border: 1px solid black;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
 }
