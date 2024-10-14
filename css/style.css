@@ -91,6 +91,10 @@ body {
   border: 1px solid black;
 }
 
+img {
+  width: 500px;
+}
+
 .container::after {
   content: "";
   display: block;
